@@ -1,0 +1,32 @@
+#. default-message: Convert timestamp to date
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Convert timestamp columns to date.
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: Unit
+msgid "_spec.parameters.unit.name"
+msgstr ""
+
+#. default-message: Day
+msgid "_spec.parameters.unit.options.day.label"
+msgstr ""
+
+#. default-message: Week
+msgid "_spec.parameters.unit.options.week.label"
+msgstr ""
+
+#. default-message: Month
+msgid "_spec.parameters.unit.options.month.label"
+msgstr ""
+
+#. default-message: Quarter
+msgid "_spec.parameters.unit.options.quarter.label"
+msgstr ""
+
+#. default-message: Year
+msgid "_spec.parameters.unit.options.year.label"
+msgstr ""
+

@@ -1,0 +1,24 @@
+id_name: converttimestamptodate
+name: Convert timestamp to date
+category: Clean
+help_url: modules/convert-timestamp-to-date
+icon: calendar
+description: 'Convert timestamp columns to date.'
+parameters:
+- id_name: colnames
+  name: ''
+  type: multicolumn
+  column_types: [ timestamp ]
+- id_name: timezone
+  name: Timezone
+  type: timezone
+- id_name: unit
+  name: Unit
+  type: menu
+  default: day
+  options:
+    - { value: day, label: Day }
+    - { value: week, label: Week }
+    - { value: month, label: Month }
+    - { value: quarter, label: Quarter }
+    - { value: year, label: Year }
