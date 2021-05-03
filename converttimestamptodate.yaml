@@ -8,7 +8,7 @@ parameters:
 - id_name: colnames
   name: ''
   type: multicolumn
-  column_types: [ timestamp ]
+  column_types: [ timestamp, date ]
 - id_name: timezone
   name: Timezone
   type: timezone

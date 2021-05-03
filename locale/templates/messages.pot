@@ -6,6 +6,10 @@ msgstr ""
 msgid "_spec.description"
 msgstr ""
 
+#. default-message: Timezone
+msgid "_spec.parameters.timezone.name"
+msgstr ""
+
 #. default-message: Unit
 msgid "_spec.parameters.unit.name"
 msgstr ""

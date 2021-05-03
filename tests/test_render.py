@@ -27,6 +27,14 @@ def test_replace_timestamp():
     )
 
 
+def test_passthrough_date32_column():
+    table = make_table(
+        make_column("A", [datetime.date(2021, 4, 1), None], unit="month")
+    )
+    result = render(table, P(colnames=["A"]))
+    assert_result_equals(result, ArrowRenderResult(table))
+
+
 def test_passthrough_null():
     table = make_table(
         make_column("A", [datetime.datetime(2021, 4, 21, 17, 31, 1), None])
