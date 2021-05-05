@@ -55,9 +55,6 @@ def render_arrow_v1(table: pa.Table, params, **kwargs):
 
     for colname in params["colnames"]:
         i = table.column_names.index(colname)
-        if pa.types.is_date32(table.columns[i].type):
-            continue
-
         table = table.set_column(
             i,
             pa.field(colname, pa.date32(), metadata={"unit": unit}),
