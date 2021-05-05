@@ -6,7 +6,7 @@ msgstr ""
 msgid "_spec.description"
 msgstr ""
 
-#. default-message: Timezone
+#. default-message: Output timezone
 msgid "_spec.parameters.timezone.name"
 msgstr ""
 

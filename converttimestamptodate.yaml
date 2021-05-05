@@ -10,7 +10,7 @@ parameters:
   type: multicolumn
   column_types: [ timestamp ]
 - id_name: timezone
-  name: Timezone
+  name: Output timezone
   type: timezone
 - id_name: unit
   name: Unit
