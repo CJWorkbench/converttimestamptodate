@@ -2,7 +2,7 @@
 msgid "_spec.name"
 msgstr ""
 
-#. default-message: Convert timestamp columns to date.
+#. default-message: Convert timestamp columns to date using timezone.
 msgid "_spec.description"
 msgstr ""
 
