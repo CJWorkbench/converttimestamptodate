@@ -3,7 +3,7 @@ name: Convert timestamp to date
 category: Clean
 help_url: articles/5188486
 icon: calendar
-description: 'Convert timestamp columns to date.'
+description: 'Convert timestamp columns to date using timezone.'
 parameters:
 - id_name: colnames
   name: ''
