@@ -1,7 +1,7 @@
 id_name: converttimestamptodate
 name: Convert timestamp to date
 category: Clean
-help_url: 5188486-convert-timestamp-to-date
+help_url: articles/5188486
 icon: calendar
 description: 'Convert timestamp columns to date.'
 parameters:
