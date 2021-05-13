@@ -13,7 +13,7 @@ parameters:
   name: Output timezone
   type: timezone
 - id_name: unit
-  name: Output unit
+  name: Output date unit
   type: menu
   default: day
   options:

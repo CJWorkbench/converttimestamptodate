@@ -10,7 +10,7 @@ msgstr ""
 msgid "_spec.parameters.timezone.name"
 msgstr ""
 
-#. default-message: Unit
+#. default-message: Output date unit
 msgid "_spec.parameters.unit.name"
 msgstr ""
 
